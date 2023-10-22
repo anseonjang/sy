@@ -58,7 +58,7 @@ a {
     height: 138px;
     border-top: 4px solid #ff6a00;
     position: fixed;
-    z-index:999999999999999999999999999999999999999999999999999999;
+    z-index: 999999999999999999999999999999999999999999999999999999;
     background-color: #fff;
 }
 
@@ -313,9 +313,10 @@ main {
     width: 100%;
     height: 100%;
     min-width: 1140px;
-  position: relative;
-  top: 138px; /* 추가 ★== */ 
-  z-index:1;
+    position: relative;
+    top: 138px;
+    /* 추가 ★== */
+    z-index: 1;
 }
 
 
@@ -452,7 +453,7 @@ ul.slides_container li:nth-child(6) {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /* 추가수정 */
@@ -516,7 +517,8 @@ ul.slides_container li:nth-child(6) {
     height: 12px;
     border-radius: 50px;
     background-color: #ff6a00;
-    transition: width 0.5s; /* 0.5초 동안 width 속성의 변화 일어남 */ 
+    transition: width 0.5s;
+    /* 0.5초 동안 width 속성의 변화 일어남 */
 
     /* transition: property duration timing-function delay; <- 속성들 */
     /* border: 1px solid transparent; */
@@ -561,50 +563,52 @@ transition을 사용하면 CSS 속성 값의 변경이 일어났을 때,
     position: absolute;
     width: 78px;
     height: 78px;
-    z-index:999999999999999999999999999;
+    z-index: 999999999999999999999999999;
 }
 
 
 /* 이전, 다음버튼 */
 
 .mySwiper {
-width: 100%;           
-margin: 0 auto;
-position: relative;
-z-index:999999999999999999999999999;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999999999999999999999999999;
 }
 
 
 
-        /* 이전(prev) 및 다음(next) 버튼 스타일 */
+/* 이전(prev) 및 다음(next) 버튼 스타일 */
 
-        .swiper-button-prev, .swiper-button-next {
-       
-            position: absolute;
-            width: 78px;
-            height: 78px;
-            background-color: transparent;
-        }
+.swiper-button-prev,
+.swiper-button-next {
 
-        .swiper-button-prev {
-            top: 247px;
-            left: 10%;
-            border:3px solid #fff;
-            border-radius: 50%;
-            /* background-image: url("../images/btn_slide_prev.png"); */
-        }
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    background-color: transparent;
+}
 
-        .swiper-button-next {
-            top: 247px;
-            right: 10%;
-            border:3px solid #fff;
-            border-radius: 50%;
-            /* background-image: url("../images/btn_slide_next.png"); */
-        }
+.swiper-button-prev {
+    top: 247px;
+    left: 10%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    /* background-image: url("../images/btn_slide_prev.png"); */
+}
 
-        .swiper-button-prev:hover,  .swiper-button-next:hover {
-            opacity: .5;
-        }
+.swiper-button-next {
+    top: 247px;
+    right: 10%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    /* background-image: url("../images/btn_slide_next.png"); */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    opacity: .5;
+}
 
 
 
@@ -657,14 +661,14 @@ section#product-wrap .porduct-text {
 
 
 div.product-new {
-   
+
     position: absolute;
     left: 5%;
     top: 10%;
- 
+
     background-image: url("../images/product_new_bg.png");
     background-repeat: no-repeat;
-   
+
 }
 
 div.product-new .newPro3ea {
@@ -679,16 +683,16 @@ div.product-new .newPro3ea {
 
 
 div.product-new ul {
-    position: relative;     
+    position: relative;
     display: flex;
     justify-content: space-between;
-    gap:0;
-   
+    gap: 0;
+
 
 }
 
 div.product-new ul li {
-   
+
     transition: .5s;
     position: absolute;
     width: 100%;
@@ -698,13 +702,13 @@ div.product-new ul li {
 }
 
 div.product-new ul li a.on {
-  
+
     display: block;
 }
 
 
 div.product-new ul li:first-child {
-  
+
     left: 0px;
 }
 
@@ -831,22 +835,19 @@ div.product-new ul li img {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* slick slide plugin*/
 .menu-wrap .banner {
     width: 100%;
     margin: 40px auto;
     /* 수정 */
     min-width: 1140px;
-    height: 50vh; 
+    height: 50vh;
+    position: relative;
+}
+
+.menu-wrap .banner .banner_slider {
+    width: 100%;
+    height: 50vh;
 }
 
 .menu-wrap .banner .slick-list {
@@ -927,7 +928,7 @@ div.product-new ul li img {
 section#family-wrap {
     position: relative;
     width: 100%;
-    height:894x;
+    height: 894x;
     background-image: url("../images/family_bg.jpg");
     background-size: cover;
     background-position: 50% 0;
@@ -1040,9 +1041,9 @@ section#family-wrap .center .family-block>div:nth-child(3) {
     footer
 ================================= */
 footer {
-    width: 100%;   
+    width: 100%;
     background-color: #fff;
-  
+
 }
 
 footer .footerWrap {
@@ -1074,7 +1075,7 @@ footer .footerWrap .bmenuCopy ul {
 }
 
 footer .footerWrap .bmenuCopy ul li {
-   
+
     padding: 0 11px 0 12px;
     background: url(../images/ico_foot_bar.gif) no-repeat center left;
 }
