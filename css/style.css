@@ -627,6 +627,7 @@ section#product-wrap {
 
 section#product-wrap .newInner {
     width: 1140px;
+    height: 50vh;
     margin: 0 auto;
     position: relative;
     height: auto;
