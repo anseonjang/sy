@@ -58,7 +58,7 @@ a {
     height: 138px;
     border-top: 4px solid #ff6a00;
     position: fixed;
-    z-index:999999999999999999999999;
+    z-index:999999999999999999999999999999999999999999999999999999;
     background-color: #fff;
 }
 
@@ -315,6 +315,7 @@ main {
     min-width: 1140px;
   position: relative;
   top: 138px; /* 추가 ★== */ 
+  z-index:1;
 }
 
 
