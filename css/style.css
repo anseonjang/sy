@@ -315,6 +315,7 @@ main {
     min-width: 1140px;
   position: relative;
   top: 138px; /* 추가 ★== */ 
+  z-index:1;
 }
 
 
