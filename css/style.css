@@ -620,7 +620,6 @@ section#product-wrap {
     height: 982px;
     text-align: center;
     background: url("../images/bg_product_tab01.jpg")no-repeat center 0;
-
     /* 250px 수정 */
     min-width: 1140px;
 }
@@ -837,13 +836,23 @@ div.product-new ul li img {
 
 
 /* slick slide plugin*/
+
+.menu-wrap {
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    bottom: 50%;
+}
 .menu-wrap .banner {
     width: 100%;
+    height: 100%;
     margin: 40px auto;
     /* 수정 */
     min-width: 1140px;
     height: 50vh;
-    position: relative;
+    position: absolute;
+    bottom: 50%;
+   
 }
 
 .menu-wrap .banner .banner_slider {
