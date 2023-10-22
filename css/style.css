@@ -58,7 +58,7 @@ a {
     height: 138px;
     border-top: 4px solid #ff6a00;
     position: fixed;
-    z-index:99999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    z-index:999999999999999999999999;
     background-color: #fff;
 }
 
@@ -315,7 +315,6 @@ main {
     min-width: 1140px;
   position: relative;
   top: 138px; /* 추가 ★== */ 
-  z-index:1;
 }
 
 
@@ -846,6 +845,7 @@ div.product-new ul li img {
     margin: 40px auto;
     /* 수정 */
     min-width: 1140px;
+    height: 50vh; 
 }
 
 .menu-wrap .banner .slick-list {
@@ -904,7 +904,7 @@ div.product-new ul li img {
 .menu-wrap .banner .btn_prev,
 .menu-wrap .banner .btn_next {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     z-index: 9;
     cursor: pointer;
